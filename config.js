@@ -176,6 +176,10 @@ const CONFIG = {
 					name: 'Outlook',
 					link: 'https://outlook.office.com/mail/inbox',
 				},
+				{
+					name: 'Intranet',
+					link: 'https://intranet.ee.cityu.edu.hk/infonet/bulletin',
+				}
 			],
 		},
 	],
