@@ -13,15 +13,17 @@ function displayClock() {
 	var min = (mins = ('0' + d.getMinutes()).slice(-2));
 	var hh = d.getHours();
 	var ampm = '';
+	var sep = " : ";
 
 	if (CONFIG.twelveHourFormat) {
-		ampm = hh >= 12 ? ' pm' : ' am';
+		ampm = hh >= 12 ? ' p.m.' : ' a.m.';
 		hh = hh % 12;
 		hh = hh ? hh : 12;
+		sep = d.getSeconds() % 2 === 0 ? " : " : "   ";
 	}
 
 	document.getElementById('hour').innerText = hh;
-	document.getElementById('separator').innerHTML = ' : ';
+	document.getElementById('separator').innerHTML = sep;
 	document.getElementById('minutes').innerText = min + ampm;
 
 	document.getElementById('month').innerText = mm;
