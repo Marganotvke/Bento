@@ -176,10 +176,6 @@ const CONFIG = {
 					name: 'Outlook',
 					link: 'https://outlook.office.com/mail/inbox',
 				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
 			],
 		},
 	],
