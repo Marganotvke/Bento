@@ -67,13 +67,13 @@ const CONFIG = {
 			id: '3',
 			name: 'Bahamut',
 			icon: 'origami',
-			link: 'https://todoist.com',
+			link: 'https://www.gamer.com.tw/index2.php?ad=N',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://www.gamer.com.tw/index2.php?ad=N',
+			name: 'LIHKG',
+			icon: 'smile',
+			link: 'https://lihkg.com/category/1?order=hot',
 		},
 		{
 			id: '5',
