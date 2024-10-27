@@ -19,7 +19,7 @@ function displayClock() {
 		ampm = hh >= 12 ? ' p.m.' : ' a.m.';
 		hh = hh % 12;
 		hh = hh ? hh : 12;
-		sep = d.getSeconds() % 2 === 0 ? ":" : "&#32;";
+		sep = d.getSeconds() % 2 === 0 ? ":" : "&nbsp;";
 	}
 
 	document.getElementById('hour').innerText = hh;
