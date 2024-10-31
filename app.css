@@ -31,6 +31,8 @@
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0)
   ); /* Filter color */
+
+  --ts: 0.2s ease-in-out;
 }
 
 .darktheme {
@@ -57,7 +59,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  transition: 0.2s ease-in-out;
 }
 
 body {
@@ -84,6 +85,7 @@ body {
 }
 
 #themeButton {
+  transition: var(--ts);
   position: absolute;
   margin: 2em 2em 0 0;
   right: 0;
@@ -110,17 +112,20 @@ body {
 }
 
 .card {
+  transition: var(--ts);
   background-color: var(--cards);
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
 }
 
 .card:hover {
+  transition: var(--ts);
   transform: translateY(-0.2rem);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
 }
 
 .timeBlock {
+  transition: var(--ts);
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
   display: flex;
@@ -130,6 +135,7 @@ body {
 }
 
 .weatherBlock {
+  transition: var(--ts);
   grid-column: 3 / span 2;
   grid-row: 1 / span 2;
   display: flex;
@@ -139,6 +145,7 @@ body {
 }
 
 .date {
+  transition: var(--ts);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,12 +153,14 @@ body {
 }
 
 .weather {
+  transition: var(--ts);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .clock {
+  transition: var(--ts);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,6 +196,7 @@ body {
 }
 
 .weatherValue p {
+  transition: var(--ts);
   font-size: var(--fg-secondary);
   font-weight: bolder;
   margin-left: 15px;
@@ -194,6 +204,7 @@ body {
 }
 
 .weatherDescription p {
+  transition: var(--ts);
   font-size: var(--fg-secondary);
   margin-left: 15px;
   color: var(--fg);
@@ -208,6 +219,7 @@ body {
 }
 
 .linksBlock {
+  transition: var(--ts);
   grid-row: 3 / span 2;
   grid-column: 1 / span 4;
   display: grid;
@@ -237,6 +249,7 @@ body {
 }
 
 .button {
+  transition: var(--ts);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,6 +257,7 @@ body {
 }
 
 .buttonIcon {
+  transition: var(--ts);
   width: var(--icon);
   height: var(--icon);
   color: var(--fg);
@@ -313,6 +327,7 @@ body {
   height: var(--icon);
 }
 .listItem {
+  transition: var(--ts);
   display: inline-flex;
   text-decoration: none;
   font-size: var(--fg-list);
@@ -328,6 +343,7 @@ body {
 }
 
 .listItem svg {
+  transition: var(--ts);
   fill: var(--fg);
   transition: 0.2s ease-in-out;
 }
