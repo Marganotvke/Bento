@@ -78,6 +78,7 @@ body {
 }
 
 .withImageBackground {
+  transition: var(--ts);
   background-image: var(--imgcol), var(--imgbg);
   background-size: cover;
   background-repeat: no-repeat;
