@@ -313,6 +313,7 @@ body {
   height: var(--icon);
 }
 .listItem {
+  display: inline-flex;
   text-decoration: none;
   font-size: var(--fg-list);
   color: var(--fg);
@@ -325,16 +326,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.listItem svg {
+  fill: var(--fg);
+}
+
 .listItem:hover {
   background-color: var(--accent);
   color: var(--sfg);
 }
 
-.gSymbols {
-  fill: var(--fg);
-}
-
-.gSymbols:hover {
+.listItem:hover svg {
   fill: var(--sfg);
 }
 
