@@ -329,6 +329,7 @@ body {
 
 .listItem svg {
   fill: var(--fg);
+  transition: 0.2s ease-in-out;
 }
 
 .listItem:hover {
@@ -338,6 +339,7 @@ body {
 
 .listItem:hover svg {
   fill: var(--sfg);
+  transition: 0.2s ease-in-out;
 }
 
 /* M E D I A - Q U E R I E S */
