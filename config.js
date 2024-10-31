@@ -154,31 +154,27 @@ const CONFIG = {
 					name: 'Spreadsheet',
 					link: 'https://docs.google.com/spreadsheets/',
 				},
-				{
-					name: 'Slides',
-					link: 'https://docs.google.com/presentation/',
-				}
 			],
 		},
 		{
-			icon: 'school',
+			icon: 'cloud',
 			id: '2',
 			links: [
 				{
-					name: 'Canvas',
-					link: 'https://canvas.cityu.edu.hk',
+					name: 'Google Slides',
+					link: 'https://docs.google.com/presentation/',
 				},
 				{
-					name: 'Aims',
-					link: 'https://banweb.cityu.edu.hk/pls/PROD/twgkpswd_cityu.P_WWWLogin',
+					name: 'Google Map',
+					link: 'https://www.google.com/maps/',
 				},
 				{
-					name: 'Outlook',
-					link: 'https://outlook.office.com/mail/inbox',
+					name: 'Google Travel',
+					link: 'https://www.google.com/travel/',
 				},
 				{
-					name: 'Intranet',
-					link: 'https://intranet.ee.cityu.edu.hk/infonet/bulletin',
+					name: 'Google Translate',
+					link: 'https://translate.google.com/',
 				}
 			],
 		},
