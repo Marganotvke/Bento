@@ -12,22 +12,22 @@ const generateFirstListsContainer = () => {
           target="${CONFIG.openInNewTab ? '_blank' : ''}"
           href="${list.links[0].link}"
           class="listItem"
-          >${list.links[0].svg} ${list.links[0].name}</a>
+          >${list.links[0].svg}\xa0${list.links[0].name}</a>
           <a
           target="${CONFIG.openInNewTab ? '_blank' : ''}"
           href="${list.links[1].link}"
           class="listItem"
-          >${list.links[1].svg} ${list.links[1].name}</a>
+          >${list.links[1].svg}\xa0${list.links[1].name}</a>
           <a
           target="${CONFIG.openInNewTab ? '_blank' : ''}"
           href="${list.links[2].link}"
           class="listItem"
-          >${list.links[2].svg} ${list.links[2].name}</a>
+          >${list.links[2].svg}\xa0${list.links[2].name}</a>
           <a
           target="${CONFIG.openInNewTab ? '_blank' : ''}"
           href="${list.links[3].link}"
           class="listItem"
-          >${list.links[3].svg} ${list.links[3].name}</a>
+          >${list.links[3].svg}\xa0${list.links[3].name}</a>
         </div>
       `;
 		const position = 'beforeend';
@@ -44,22 +44,22 @@ const generateSecondListsContainer = () => {
         target="${CONFIG.openInNewTab ? '_blank' : ''}"
         href="${list.links[0].link}"
         class="listItem"
-        >${list.links[0].svg} ${list.links[0].name}</a>
+        >${list.links[0].svg}\xa0${list.links[0].name}</a>
         <a
         target="${CONFIG.openInNewTab ? '_blank' : ''}"
         href="${list.links[1].link}"
         class="listItem"
-        >${list.links[1].svg} ${list.links[1].name}</a>
+        >${list.links[1].svg}\xa0${list.links[1].name}</a>
         <a
         target="${CONFIG.openInNewTab ? '_blank' : ''}"
         href="${list.links[2].link}"
         class="listItem"
-        >${list.links[2].svg} ${list.links[2].name}</a>
+        >${list.links[2].svg}\xa0${list.links[2].name}</a>
         <a
         target="${CONFIG.openInNewTab ? '_blank' : ''}"
         href="${list.links[3].link}"
         class="listItem"
-        >${list.links[3].svg} ${list.links[3].name}</a>
+        >${list.links[3].svg}\xa0${list.links[3].name}</a>
         </div>
       `;
 		const position = 'beforeend';
