@@ -322,10 +322,20 @@ body {
   font-weight: bold;
   text-align: center;
   width: 80%;
+  justify-content: center;
+  align-items: center;
 }
 .listItem:hover {
   background-color: var(--accent);
   color: var(--sfg);
+}
+
+.gSymbols {
+  fill: var(--fg);
+}
+
+.gSymbols:hover {
+  fill: var(--sfg);
 }
 
 /* M E D I A - Q U E R I E S */
